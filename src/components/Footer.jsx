@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../App.css';
+
 
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <footer>
+      <hr />
+        <p>&copy; 2025 Stack Stories. All rights reserved.</p>
+    </footer>
+  );
 }
