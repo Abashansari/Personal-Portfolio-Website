@@ -8,7 +8,7 @@ export default function WelcomePage() {
     return (
         <div className="container vh-100 d-flex justify-content-center align-items-center text-center" id='home'>
             <div className="text">
-                <div className='container d-flex'>
+                <div className='container d-flex justify-content-between mb-3'>
                     <CodeIcon />
                     <FavoriteIcon />
                     <CoffeeIcon />
