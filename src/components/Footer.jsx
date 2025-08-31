@@ -6,7 +6,9 @@ export default function Footer() {
   return (
     <footer>
       <hr />
-        <p>&copy; 2025 Stack Stories. All rights reserved.</p>
+      <p className="small mb-0">
+         Copyright &copy; 2025  designed by |<span className="fw-bold"> Abash Ansari The Great</span>. All Rights Reserved. 
+        </p>
     </footer>
   );
 }
