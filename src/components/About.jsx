@@ -23,7 +23,7 @@ export default function About() {
                                 I have always been concerned about human rights and equality,
                                 even if others sometimes misjudge me with unfair tags. I believe in myself,
                                 in my values, and in my goals—and I refuse to be defined by what others say about me.</p>
-                            <a href="#" class="btn btn-primary"> <ChatIcon/> View Blogs</a>
+                            <a href="#" className="btn btn-primary"> <ChatIcon/> View Blogs</a>
                         </div>
                     </div>
                 </div>
