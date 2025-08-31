@@ -4,6 +4,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import XIcon from '@mui/icons-material/X';
 import ProfilePhoto from '/ProfilePhoto.jpg'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import SocialmediaIcons from './SocialmediaIcons';
 
 export default function Home() {
     return (
@@ -16,11 +17,9 @@ export default function Home() {
                         <h2>Full Stack Developer</h2>
                         <p>“I don't just build websites — I craft seamless digital experiences,<br />
                             from database to browser.”</p>
-                        <button className='col-start my-3'><a href='tel:8167259866'><WhatsAppIcon/> Let's have a Chat...</a></button>
-                        <div className='container d-flex justify-content-center align-items-center my-2'>
-                            <GitHubIcon />
-                            <LinkedInIcon />
-                            <XIcon />
+                        <button className='col-start my-3'><a href="https://wa.me/+918167259866" target='_blank'><WhatsAppIcon/> Let's have a Chat...</a></button>
+                        <div>
+                            <SocialmediaIcons className='icon-circle'/>
                         </div>
                     </div>
                 </div>
