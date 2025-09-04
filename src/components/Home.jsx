@@ -1,6 +1,6 @@
 import React from 'react'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import ProfilePhoto from '/ProfilePhoto.jpg'
+import HomePhoto from '/HomePhoto.png'
 import SocialmediaIcons from './SocialmediaIcons';
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
                 </div>
 
                 <div className="col-6 col-md-4 d-flex justify-content-center align-items-center">
-                    <img src={ProfilePhoto} className="img-fluid rounded-pill shadow-lg border border-2 border-primary my-4" alt="profile photo" />
+                    <img src={HomePhoto} className="img-fluid rounded-pill shadow-lg border border-2 border-primary my-4" alt="profile photo" />
                 </div>
             </div>
         </div>

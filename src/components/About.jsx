@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfilePhoto from '/ProfilePhoto.jpg'
+import AboutPhoto from '/AboutPhoto.jpg'
 import ChatIcon from '@mui/icons-material/Chat';
 
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
                 <div className="row g-0">
 
                     <div className="col-md-4">
-                        <img src={ProfilePhoto} className="img-fluid rounded-start h-100" style={{ objectFit: "cover" }} alt="photo" />
+                        <img src={AboutPhoto} className="img-fluid rounded-start h-100" style={{ objectFit: "cover" }} alt="photo" />
                     </div>
 
                     <div className="col-md-8">
